@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: block;
+    margin: auto;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+body{
+    background: url('../img/background.jpeg');
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+header{
+    background: rgba(51,51,51,0.70);
+}
+#menu{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+    float: right;
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover{
+    background: darkslategray;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#banner{
+    width: 100%;
+    height: 441px;
+}
+
+#david_y_gio{
+    background: darkslategray;
+    font-family: 'Righteous', cursive;
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    width: 26%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 23px;
+    border-style: solid;
+    border-radius: 9px;
+}
+
+#david_y_gio img{
+    width: 13%;
+}
+
+#banner h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 77px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    background: darkslategray;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#content{
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    display: block;
+    left: 35.5%;
+    right: 35.5%;
+    margin-top: 36px;
+}
+
+#fondo{
+    width: 30%;
+    display: block;
+    margin: auto;
+    position: absolute;
+}
+
+#text{
+    text-align: center;
+    color: white;
+    background: rgba(51,51,51,0.70);
+    border-radius: 29px;
+    margin:  0px auto;
+    width: 25%;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 42%;
+    margin-left: 1.5%;
+    line-height: 37px;
+}
+
+#text p{
+    font-family: 'Righteous', cursive;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#text h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 33px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#after{
+    width: 20%;
+    margin: auto;
+    margin-bottom: 2%;
+    display: block;
+    text-align: center;
+}
+
+#after a{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    background: #0080af;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 55px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1850px){
+    #text p{
+        font-size: 14px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    #text h2{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1208px){
+    
+    #content {
+        display: block;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    
+    #fondo {
+        width: 45%;
+        display: block;
+        margin: auto;
+        margin-top: 4%;
+        margin-left: -80px;
+    }
+    
+    #text {
+        text-align: center;
+        color: white;
+        background: rgba(51,51,51,0.70);
+        border-radius: 29px;
+        margin: 0px auto;
+        width: 35%;
+        position: absolute;
+        top: 270px;
+        left: -55px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 42%;
+        margin-left: 1.5%;
+        line-height: 37px;
+    }
+    
+    #after {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    
+    #content{
+        height: 955px;
+    }
+    
+    #menu ul {
+        line-height: 30px;
+    }
+    
+    #menu ul li {
+        height: 30px;
+    }
+
+    #menu ul li a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #banner{
+        height: 365px;
+    }
+    
+    #david_y_gio {
+        font-size: 28px;
+        width: 40%;
+    }
+    
+    #banner h1 {
+        font-size: 65px;
+    }
+    
+    #text{
+        top: 145px;
+        left: -65px;
+    }
+      
+    #after{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    
+    #menu ul {
+        line-height: 35px;
+        margin-left: 12%;
+    }
+    
+    #menu ul li {
+        height: 35px;
+    }
+    
+    #menu ul li a {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    #content {
+        height: 1215px;
+    }
+    
+    #fondo {
+        width: 75%;
+        margin-left: -180px;
+    }
+    
+    #text{
+        width: 60%;
+        font-size: 36px;
+        top: 525px;
+        left: -150px;
+    }
+    
+    #text p{
+        font-size:  15px;
+    }
+    
+    #after{
+        width: 40%;
+    }
+    
+    #after a{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .container{
+        background: rgba(51,51,51,0.70);
+        display: block;
+        margin: auto;
+        position: absolute;
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+    header{
+        background: none;
+    }
+    
+    #david_y_gio {
+        display: block;
+        margin: auto;
+        width: auto;
+        padding: 2%;
+        font-size: 25px;
+    }
+        
+    #banner h1{
+        display: none;
+    }
+    
+    #content {
+        height: 720px;
+    }
+    
+    #fondo {
+        width: 90%;
+        margin-left: -147px;
+        margin-top: -190px;
+        border-radius: 25px;
+    }
+    
+    #text {
+        width: 80%;
+        top: 120px;
+        left: -150px;
+    }
+    
+    #after{
+        width: 70%;
+        margin-bottom: 0%;
+    }
+}
+
+@media screen and (max-width:460px){
+    #fondo{
+        margin-left: -140px;
+    }
+    
+    #text {
+        width: 75%;
+        top: 45px;
+        left: -133px;
+    }
+    
+    #content {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width:420px){
+    #content {
+        height: 595px;
+    }
+    
+    #fondo {
+        margin-left: -128px;
+    }
+    
+    #text {
+        width: 75%;
+        top: -8px;
+        left: -122px;
+    }
+}
+

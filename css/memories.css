@@ -1,0 +1,304 @@
+.container{
+}
+
+#mensaje{
+    display: block;
+    margin: auto;
+}
+
+.mensaje {
+    font-size: 15px;
+    color: #fbbf32;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#memories{
+    width: 55%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 30px;
+    position: relative;
+    left: 25%;
+    background: rgba(51,51,51,0.80);
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px grey;
+    float: left;
+}
+
+.post{
+    display: block;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+#background_memories h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#background_memories img{
+    width: 20%;
+    float: left;
+    margin-top: -20px;
+    margin-left: 3%;
+    border-radius: 35px;
+}
+
+#background_memories span{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    color: white;
+    margin-left: 5%;
+}
+
+#background_memories p{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: white;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 8%;
+    text-align: justify;
+}
+
+footer {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: white;
+    height: 165px;
+    background: rgba(51,51,51,0.70);
+    margin: 0px auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 130px;
+    line-height: 47px;
+}
+
+#pie_de_pagina {
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 50%;
+    width: 30%;
+    float: left;
+}
+
+#pie_de_pagina h2{
+    float: left;
+}
+
+#pie_de_pagina img{
+    width: 20%;
+    margin-top: -30px;
+    float: right;
+}
+
+#emergente{
+    max-width: 800px;
+    background: url(../img/emergente.jpg);
+    background-attachment: local;
+    text-align: center;
+    padding: 2%;
+}
+
+#emergente img{
+    width: 25%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 50px #000;
+    border-radius: 10px;
+}
+
+#texto_emergente{
+    width: 85%;
+    background: rgba(51,51,51,0.7);
+    margin: auto;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    box-shadow: 0 0 50px #000;
+    display: block;
+}
+
+#texto_emergente h4{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+#texto_emergente p{
+    font-family: 'pacifico', cursive;
+    color: white;
+    padding: 5%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.element_close {
+    background: #212F3D;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 4px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 1208px){
+    
+    #memories{
+        width: 75%;
+        left: 10%;
+    }
+    
+    #background_memories img {
+        width: 25%;
+    }
+    
+    #pie_de_pagina img {
+        width: 32%;
+        margin-top: -100px;
+        margin-right: -20%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    
+    #memories{
+        width: 85%;
+        left: 5%;
+    }
+    
+    footer {
+        font-size: 25px;
+        height: 138px;
+        margin-top: 65px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    
+    #memories {
+        width: auto;
+        left: auto;
+    }
+    
+    #background_memories h2 {
+        font-size: 25px;
+    }
+    
+    #background_memories span {
+        font-size: 20px;
+    }
+    
+    #background_memories p {
+        font-size: 16px;
+    }
+    
+    footer {
+        font-size: 18px;
+    }
+    
+    #pie_de_pagina img {
+        width: 39%;
+        margin-top: -92px;
+        margin-right: -35%;
+    }
+    
+}
+
+@media screen and (max-width: 500px){ 
+    
+    #memories {
+        margin-top: -180px;
+        padding: 15px;
+    }
+    
+    .post{
+        margin-bottom: 12%;
+    }
+    
+     #background_memories h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    
+    #background_memories img {
+        width: 30%;
+    }
+    
+    #background_memories span {
+        font-size: 15px;
+    }
+    
+    #background_memories p {
+        font-size: 10px;
+        margin-left: 35%;
+    }
+    
+    footer {
+        font-size: 10px;
+        height: 70px;
+        margin-top: 40px;
+    }
+    
+    #pie_de_pagina img {
+        width: 35%;
+        margin-top: -5px;
+        margin-right: -40%;
+    }
+    
+    #texto_emergente h4 {
+        font-size: 20px;
+    }
+    
+    #texto_emergente p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 460px){ 
+    footer{
+        font-size: 8px;
+        padding-left: 55px;
+    }
+    
+    #pie_de_pagina img {
+        width: 25%;
+        margin-top: 5px;
+        margin-right: -15%;
+    }
+}
+
+@media screen and (max-width: 420px){ 
+    #pie_de_pagina {
+        margin-left: 45%;
+    }
+    
+    #pie_de_pagina h2 {
+        margin-left: -15%;
+    }
+}
+
+@media screen and (max-width: 360px){ 
+    #background_memories img {
+        width: 40%;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    
+    #background_memories span {
+        font-size: 12px;
+    }
+    
+    #background_memories p {
+        margin-left: 45%;
+    }
+}
